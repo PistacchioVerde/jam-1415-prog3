@@ -1,0 +1,12 @@
+package JAM;
+
+/**
+ * elenca le performative disponibili (UN- KNOWN, REQUEST, INFORM, REFUSE, QUERY
+ * IF, QUERY REF, AGREE, FAILURE, NOT UNDERSTOOD, CALL FOR-PROPOSAL, PROPOSAL
+ *
+ * @author Andrea Bragagnolo
+ */
+public enum Performative {
+
+    UNKNOWN, REQUEST, INFORM, REFUSE, QUERY_IF, QUERY_REF, AGREE, FAILURE, NOT_UNDERSTOOD, CALL_FOR_PROPOSAL, PROPOSAL;
+}
